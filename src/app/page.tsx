@@ -3,7 +3,6 @@ import { NavBar } from "./components/NavBar/NavBar";
 import BoxingMobile from "../../public/boxing-mobile.png";
 import BoxingDesktop from "../../public/boxing.png";
 
-// bg-[url(../../public/boxing.png)] bg-no-repeat bg-contain bg-right
 export default function Home() {
   return (
     <div className=" min-h-screen p-2">
