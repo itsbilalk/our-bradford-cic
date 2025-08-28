@@ -6,8 +6,7 @@ import BoxingDesktop from "../../public/boxing.png";
 export default function Home() {
   return (
     <div className=" min-h-screen p-2">
-      <NavBar />
-      <main className="flex flex-col mt-8 pl-2">
+      <main className="flex flex-col mt-4 pl-2">
         <div className="flex">
           <div className="md:mt-15">
             <h1 className="font-montserrat text-4xl md:text-6xl font-extrabold">
@@ -16,7 +15,7 @@ export default function Home() {
             <Image
               src={BoxingMobile}
               alt="Boxing activity"
-              className="absolute top-30 right-4 rounded-lg md:hidden"
+              className="absolute top-26 right-4 rounded-lg md:hidden"
             />
 
             <p className="mt-4 font-lato font-medium text-xl md:text-2xl">
@@ -31,6 +30,16 @@ export default function Home() {
             alt="Boxing activity"
             className=" top-30 right-4 rounded-lg hidden md:block h-120"
           />
+        </div>
+
+        <div className="mt-6">
+          <h1 className="font-montserrat text-4xl md:text-6xl font-extrabold">
+            OUR MISSION
+          </h1>
+          <p className="mt-4 font-lato font-medium text-xl md:text-2xl">
+            Lorem ipsum dolor sit amgt, consectetur alipiscing elit. Mauris
+            ultricies ries efficitur lorem ipsum.
+          </p>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center"></footer>

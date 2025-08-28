@@ -11,10 +11,10 @@ export const NavBar = () => {
 
   return (
     <header className="font-lato">
-      <div className="flex align-middle justify-between md:hidden">
+      <div className="flex align-middle justify-between md:hidden mt-2">
         <Image src={logo} alt="Our Bradford logo" />
         <Menu
-          className="mt-auto mb-auto"
+          className="mt-auto mb-auto mr-2"
           fontSize="large"
           onClick={() => setToggleMenu(!toggleMenu)}
         />
