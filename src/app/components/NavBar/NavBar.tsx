@@ -12,14 +12,14 @@ export const NavBar = () => {
   return (
     <header className="font-lato">
       <div className="flex align-middle justify-between md:hidden mt-2">
-        <Image src={logo} alt="Our Bradford logo" />
+        <Image src={logo} alt="Our Bradford logo" className="ml-2" />
         <Menu
           className="mt-auto mb-auto mr-2"
           fontSize="large"
           onClick={() => setToggleMenu(!toggleMenu)}
         />
       </div>
-      <div className="hidden md:flex align-middle">
+      <div className="hidden md:flex align-middle md:mt-2 md:ml-2">
         <Image src={logo} alt="Our Bradford logo" />
         <nav className="hidden  md:flex  font-bold text-lg md:text-xl text-center self-center ml-auto mr-4 gap-8">
           <Link href={""}>About</Link>

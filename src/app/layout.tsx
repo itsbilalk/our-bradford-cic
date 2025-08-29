@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Montserrat, Lato } from "next/font/google";
 import "./globals.css";
 import { NavBar } from "./components/NavBar/NavBar";
+import { Footer } from "./components/Footer/Footer";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -27,11 +28,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <>
       <NavBar />
-      <body className={`${montserrat.variable} ${lato.variable} antialiased`}>
-        {children}
-      </body>
-    </html>
+      <html lang="en">
+        <body className={`${montserrat.variable} ${lato.variable} antialiased`}>
+          {children}
+        </body>
+      </html>
+      <Footer />
+    </>
   );
 }
