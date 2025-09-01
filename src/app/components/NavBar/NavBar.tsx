@@ -22,7 +22,7 @@ export const NavBar = () => {
       <div className="hidden md:flex align-middle md:mt-2 md:ml-2">
         <Image src={logo} alt="Our Bradford logo" />
         <nav className="hidden  md:flex  font-bold text-lg md:text-xl text-center self-center ml-auto mr-4 gap-8">
-          <Link href={""}>About</Link>
+          <Link href={"/about-us"}>About</Link>
           <Link href={""}>Impact</Link>
           <Link href={""}>News</Link>
           <Link href={""}>Partner</Link>
@@ -38,7 +38,7 @@ export const NavBar = () => {
     transform transition-transform duration-500 ease-in-out
     ${toggleMenu ? "scale-y-100 opacity-100" : "scale-y-0 opacity-0"}`}
           >
-            <Link href={""}>About</Link>
+            <Link href={"/about-us"}>About</Link>
             <Link href={""}>Impact</Link>
             <Link href={""}>News</Link>
             <Link href={""}>Partner</Link>

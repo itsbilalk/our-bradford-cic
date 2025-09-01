@@ -12,7 +12,7 @@ export default function AboutUs() {
         ABOUT US
       </h1>
       <div
-        className="flex flex-col align-middle justify-center bg-[url('/friends-mobile.png')] md:hidden
+        className="flex flex-col align-middle justify-center bg-[url('/friends.png')] md:hidden
                         bg-cover bg-center bg-no-repeat h-78 mx-8 rounded-2xl"
       >
         <div className="h-35 bg-[#16161673] rounded-2xl mt-auto text-center">
