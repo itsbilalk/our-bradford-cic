@@ -49,7 +49,7 @@ export default function Home() {
         <div
           className="
     relative h-[520px] w-full
-    bg-[linear-gradient(to_top,white,rgba(44,44,109,0.5),transparent),url('/teenagers-mobile.png')]
+    bg-[linear-gradient(to_top,white,rgba(44,44,109,0.5),transparent),url('/teenagersMobile.png')]
     md:bg-[linear-gradient(to_top,white,rgba(44,44,109,0.5),transparent),url('/teenagers.png')]
     bg-cover bg-center bg-no-repeat
     flex flex-col items-center justify-end pb-10 text-center
