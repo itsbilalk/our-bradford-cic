@@ -7,7 +7,7 @@ import friends from "../../../public/friends.png";
 
 export default function AboutUs() {
   return (
-    <div className="mt-6 text-start mx-6 font-lato text-lg lg:text-3xl text-[#2C2C6D]">
+    <div className="mt-6 text-start mx-6 font-lato text-lg lg:text-3xl text-[#2C2C6D] lg:mx-45 xl:mx-58">
       <h1 className="text-3xl lg:text-4xl font-bold text-[#2C2C6D] font-montserrat text-center mb-4 md:hidden">
         ABOUT US
       </h1>
