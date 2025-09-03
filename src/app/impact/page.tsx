@@ -7,7 +7,6 @@ import {
 import Image from "next/image";
 import cayaking from "../../../public/cayaking.png";
 import youthFitness from "../../../public/youthFitness.png";
-import youthWithFood from "../../../public/youthWithFood.png";
 import office from "../../../public/office.png";
 import caffe from "../../../public/caffe.png";
 import ImpactCarousel from "../components/Carousel/Carousel";
