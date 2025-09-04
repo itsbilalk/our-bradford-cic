@@ -12,7 +12,9 @@ export const NavBar = () => {
   return (
     <header className="font-lato">
       <div className="flex align-middle justify-between md:hidden mt-2">
-        <Image src={logo} alt="Our Bradford logo" className="ml-2" />
+        <Link href="/">
+          <Image src={logo} alt="Our Bradford logo" className="ml-2" />
+        </Link>
         <Menu
           className="mt-auto mb-auto mr-2"
           fontSize="large"
@@ -20,11 +22,13 @@ export const NavBar = () => {
         />
       </div>
       <div className="hidden md:flex align-middle md:mt-2 md:ml-2">
-        <Image src={logo} alt="Our Bradford logo" />
+        <Link href="/">
+          <Image src={logo} alt="Our Bradford logo" />
+        </Link>
         <nav className="hidden  md:flex  font-bold text-lg md:text-xl text-center self-center ml-auto mr-4 gap-8">
           <Link href={"/about-us"}>About</Link>
           <Link href={"/impact"}>Impact</Link>
-          <Link href={""}>News</Link>
+          <Link href={"/our-team"}>Our Team</Link>
           <Link href={""}>Partner</Link>
           <Link href={""}>Contact</Link>
         </nav>

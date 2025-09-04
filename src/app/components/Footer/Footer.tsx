@@ -50,22 +50,28 @@ export const Footer = () => {
         className={`
     grid grid-cols-2 font-bold text-lg gap-1 mr-auto text-start md:text-xl font-montserrat`}
       >
-        <div className="">
+        <div>
           <ArrowRight fontSize="large" />
-          <Link href={""} className="text-center">
+          <Link href={"/"} className="text-center">
+            Home
+          </Link>
+        </div>
+        <div>
+          <ArrowRight fontSize="large" />
+          <Link href={"/about-us"} className="text-center">
             About
           </Link>
         </div>
         <div>
           <ArrowRight fontSize="large" />
-          <Link href={""} className="self-center">
+          <Link href={"/impact"} className="self-center">
             Impact
           </Link>
         </div>
 
         <div>
           <ArrowRight fontSize="large" />
-          <Link href={""}>News</Link>
+          <Link href={"/our-team"}>Our Team</Link>
         </div>
         <div>
           <ArrowRight fontSize="large" />
