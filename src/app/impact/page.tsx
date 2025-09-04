@@ -19,9 +19,10 @@ export default function Impact() {
           WHAT WE&apos;VE DONE
         </h1>
         <p className="text-white ">
-          &quot;The team at Our Bradford have built a foundation for endless
-          impact and social development. I can&apos;t wait to see what they do
-          next.&quot;
+          <blockquote>
+            “The team at Our Bradford have built a foundation for endless impact
+            and social development. I can&apos;t wait to see what they do next.”
+          </blockquote>
         </p>
         <p className="mt-4 text-white">- Community Leader</p>
       </div>
