@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="row-start-3 flex flex-col gap-4 flex-wrap items-center justify-center  mt-auto">
+    <footer className="row-start-3 flex flex-col gap-4 flex-wrap items-center justify-center  mt-auto text-[#2C2C6D]">
       <span className="w-full h-1 border-b-1 flex mt-2 border-gray-300"></span>
       <h2 className="font-montserrat font-bold text-xl  md:text-2xl">
         FOLLOW US
@@ -43,12 +43,12 @@ export const Footer = () => {
           </span>
         </div>
       </div>
-      <h2 className="font-montserrat font-bold text-xl mr-auto ml-3 md:text-2xl">
+      <h2 className="font-montserrat font-bold text-xl mr-auto ml-3 md:text-2xl text-[#2C2C6D]">
         QUICK LINKS
       </h2>
       <nav
         className={`
-    grid grid-cols-2 font-bold text-lg gap-1 mr-auto text-start md:text-xl font-montserrat`}
+    grid grid-cols-2 font-bold text-lg gap-1 mr-auto text-start md:text-xl font-montserrat text-[#2C2C6D]`}
       >
         <div>
           <ArrowRight fontSize="large" />

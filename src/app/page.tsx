@@ -17,7 +17,7 @@ const Card = ({
   return (
     <div className="text-xl bg-[#F8F9FA] p-6 flex flex-col self-center justify-center ">
       <Icon fontSize="large" className="self-center" />
-      <h6 className="font-montserrat font-bold text-center md:text-2xl">
+      <h6 className="font-montserrat font-bold text-center md:text-2xl text-[#2C2C6D]">
         {heading}
       </h6>
       <p className="text-sm text-center md:text-lg">{info}</p>
@@ -44,7 +44,7 @@ export default function Home() {
     },
   ];
   return (
-    <div className=" min-h-screen p-2 text-center">
+    <div className="-2 text-center">
       <main className="flex flex-col mt-4 pl-2">
         <div
           className="
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         <div className="mt-6 ">
-          <h1 className="font-montserrat text-4xl md:text-6xl font-extrabold">
+          <h1 className="font-montserrat text-4xl md:text-6xl font-extrabold text-[#2C2C6D]">
             OUR MISSION
           </h1>
           <p className="mt-4 font-lato font-medium text-xl md:text-2xl">

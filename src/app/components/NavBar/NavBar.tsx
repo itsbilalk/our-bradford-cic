@@ -10,7 +10,7 @@ export const NavBar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <header className="font-lato">
+    <header className="font-lato text-[#2C2C6D]">
       <div className="flex align-middle justify-between md:hidden mt-2">
         <Link href="/">
           <Image src={logo} alt="Our Bradford logo" className="ml-2" />
