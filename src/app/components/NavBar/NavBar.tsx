@@ -29,7 +29,6 @@ export const NavBar = () => {
           <Link href={"/about-us"}>About</Link>
           <Link href={"/impact"}>Impact</Link>
           <Link href={"/our-team"}>Our Team</Link>
-          <Link href={""}>Partner</Link>
           <Link href={""}>Contact</Link>
         </nav>
       </div>

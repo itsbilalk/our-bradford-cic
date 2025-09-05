@@ -12,7 +12,7 @@ import Link from "next/link";
 
 export const Footer = () => {
   return (
-    <footer className="row-start-3 flex flex-col gap-4 flex-wrap items-center justify-center  ">
+    <footer className="row-start-3 flex flex-col gap-4 flex-wrap items-center justify-center  mt-auto">
       <span className="w-full h-1 border-b-1 flex mt-2 border-gray-300"></span>
       <h2 className="font-montserrat font-bold text-xl  md:text-2xl">
         FOLLOW US
@@ -72,10 +72,6 @@ export const Footer = () => {
         <div>
           <ArrowRight fontSize="large" />
           <Link href={"/our-team"}>Our Team</Link>
-        </div>
-        <div>
-          <ArrowRight fontSize="large" />
-          <Link href={""}>Partner</Link>
         </div>
         <div>
           <ArrowRight fontSize="large" />
