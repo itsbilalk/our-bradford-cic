@@ -4,14 +4,7 @@ html {
   height: 100%;
 }
 
-:root {
-  --background: #ffffff;
-  --foreground: #35366d;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
